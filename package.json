@@ -1,0 +1,19 @@
+{
+  "name": "finalprojectdnd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxwilets/finalProjectDnD.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxwilets/finalProjectDnD/issues"
+  },
+  "homepage": "https://github.com/maxwilets/finalProjectDnD#readme"
+}
