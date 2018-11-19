@@ -6,6 +6,8 @@ round INT(0),
 primary key(game_id)
 );
 
+---UUUID for identifyed
+
 CREATE table characters(
 character_id INT NOT NULL auto_increment,
 character_name varchar(150),

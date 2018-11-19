@@ -1,6 +1,9 @@
 inquirer = require('inquirer');
 mysql = require('mysql');
 
+var choiceAr = [
+    'View characters','Add character', 'Start game'
+]
 
 var connection = mysql.createConnection({
     host: "localhost",
@@ -66,7 +69,13 @@ connection.connect(function (err) {
       
     }
     
-    
+whatToDo = () => {
+    inquirer.prompt({
+        name: 'do',
+        type: 'rawlist',
+        choices: choiceAr
+    })
+} 
 
 
 function gameCheck(){
