@@ -75,6 +75,19 @@ whatToDo = () => {
         type: 'rawlist',
         choices: choiceAr
     })
+    .then(function(data){
+        switch(data.choices){
+            case choiceAr[0]:
+                 viewChar()
+                 break;
+            case choiceAr[1]:
+            addChar()
+            break;
+
+            case choiceAr[2]:
+            startStar()
+        }
+    })
 } 
 
 

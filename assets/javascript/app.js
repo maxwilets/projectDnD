@@ -19,19 +19,5 @@ $(document).ready(function(){
 
       database = firebase.database();
       //initialize user validaton
-      $('#userName').on('click', function()
-      {
-         var userName = $('#userInput').val();
-         console.log(userName);
-         database.ref().once('value').then(function(snapshot) {
-             
-             if (userName == snapshot.child('user').child) {
-                 $(document).append('<div> Welcome ' + userName + '</div>')
-             }
-             else {database.ref(userName).set({
-                 userName: userName
-             })}
-         })
-         
-      })
+     
 })
