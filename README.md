@@ -26,4 +26,4 @@
 
 ## IMPORTANT
 
-This projects is still under contruction. There is no front end built for it yet. The back end and server is still being built and the database is currently being teseted in Node
+This projects is still under contruction. There is no front end built for it yet. The back end and server is still being built and the database is currently being teseted in Node m
